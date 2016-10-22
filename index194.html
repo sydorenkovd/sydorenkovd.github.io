@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!--<script src="js/193.js"></script>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<header class="offer">
+    <nav class="body-content row">
+        <div class="navigation">
+            <div class="logo">
+                <img src="images/logo_silpo.png" class="img-responsive">
+            </div>
+            <div class="header-title"></div>
+            <div class="telephone visible-xs visible-sm">
+                <div class="icon"></div>
+            </div>
+            <div class="header">
+                <button type="button" class="navbar-toggle collapsed">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <ul >
+                <li class="">
+                    <a href="http://silpovoyage.local.devel.silpovoyage.com.ua">Туры</a> </li>
+                <li class="active">
+                    <a href="#">Авиабилеты</a>                       </li>
+                <li class="">
+                    <a href="#">Наши офисы</a>                        </li>
+            </ul>
+        </div>
+        <div class="telephone visible-lg visible-md pull-right">
+            <div class="icon"></div>
+            <div class="info">
+                <span class="text">044 233 07 48</span>
+                <div class="callback">
+                    <a class="modal-link modalR" data-toggle="modal" data-target=".bs-example-modal-lg" href="#">обратный звонок</a>
+                    <!--<a data-toggle="modal" data-target=".bs-example-modal-lg" id="moreInformation" href="#"-->
+                       <!--class="modal-link modalR hidden-xs link-block pull-right">Подробнее</a>-->
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="content">
+    <div class="body-content">
+        <!-- Заблокирован -->
+        <div class="row row-special ">
+            <div class="col-sm-1 col-lg-1 col-md-1 "></div>
+            <div class="col-sm-10 col-md-10 col-lg-10  white-background border-ride block-checkout padding-left-right">
+                <div class="row row-special title-block">
+                    <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12">
+                        <span class="title-block title-success">Заказ забронирован</span>
+
+                        <a href="#pay" class="link-block">к оплате</a>
+                    </div>
+                </div>
+                <div class="row row-special">
+                    <div class="col-md-6 col-xs-12 col-sm-6 col-lg-3">
+                        <div class="col-xs-6 col-sm-6 col-lg-12 col-md-6">
+                            <span class="text-grey-big title-column">Номер заказа </span>
+                        </div>
+                        <div class="col-xs-6 col-md-6 col-lg-12">
+                            <span class="value-column value-success">2143421412</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 col-sm-6 col-lg-3">
+                        <div class="col-xs-6 col-md-6 col-lg-12">
+                            <span class="text-grey-big title-column">Код доступа </span>
+                        </div>
+                        <div class="col-xs-6 col-md-6 col-lg-12">
+                            <span class="value-column">2342343534423</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 col-sm-6 col-lg-3">
+                        <div class="col-xs-6 col-md-6 col-lg-12">
+                            <span class="text-grey-big title-column">Оплатить до </span>
+                        </div>
+                        <div class="col-xs-6 col-md-6 col-lg-12">
+                            <span class="value-column">12 преля 2016 до 18:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-lg-1 col-md-1"></div>
+        </div>
+        <div class="row row-special padding-header-2">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10 col-lg-10 col-md-10 white-background border-ride block-checkout padding-left-right">
+                <div class="row row-special title-block">
+                    <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12">
+                        <span class="title-block">Рейсы</span>
+                        <a data-toggle="modal" data-target=".bs-example-modal-lg" id="moreInformation" href="#"
+                        class="modal-link modalF hidden-xs link-block pull-right">Подробнее</a>
+                    </div>
+                </div>
+                <div class="row row-special">
+                    <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12 line-block">
+                        <div class="row row-special">
+
+                            <div class="col-sm-8 col-md-8 col-lg-8">
+                                <span class="logo from-air"></span>
+                                <span class="text-large-block">Киев (KBP) - Амстердам (AMS), 14 января</span>
+                            </div>
+                            <div class="col-sm-4  col-md-4 col-lg-4 hidden-xs text-right">Время в пути: 5 ч 00 мин</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12">
+                        <div class="row row-special">
+                            <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12 line-block-route">
+                                <div class="row row-special">
+                                    <div class="ccol-sm-8 col-md-8 col-xs-8 col-lg-8">
+                                        <span class="logo to-air"></span>
+                                        <span class="text-large-block">Амстердам(AMS) - Киев(IEV), 17-18 января</span>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs text-right">Время в пути: 5 ч 00 мин</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row row-special padding-header-2 ">
+            <div class="col-sm-1 col-md-1 col-xs-1 col-lg-1 hidden-xs"></div>
+            <div class="col-sm-10 col-ld-10 col-md-10 white-background border-ride block-checkout padding-left-right">
+                <div class="row row-special title-block">
+                    <div class="col-sm-12 col-xs-12 col-lg-12 col-md-12">
+                        <span class="title-block">Пасажиры</span>
+                    </div>
+                </div>
+
+                <div class="row row-special hidden-xs hidden-sm">
+                    <div class="col-md-12 col-lg-12 line-block-small">
+                        <div class="row row-special">
+                            <div class="col-md-3 col-xs-12 col-sm-12">
+                                <span class="text-grey text-front-block">Фамилия Имя</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-grey text-front-block">Пол</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-grey text-front-block">Гражданство</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-grey text-front-block">Дата рождения</span>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 hidden-xs">
+                                <span class="text-grey text-front-block">Серия и номер документа</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-special line-block-right">
+                    <div class="line-block-xs col-sm-6 col-md-12 col-xs-12 col-lg-12 line-block">
+                        <div class="row row-special">
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <span class="text-large-block upcase font-big-xs">Тарасов Андрей</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 col-sm-12 hidden-xs">
+                                <span class="text-large-block">Мужской</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 col-sm-12 hidden-xs">
+                                <span class="text-large-block">Украина</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 col-sm-12 hidden-xs">
+                                <span class="text-large-block">12.12.1990</span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 col-sm-12 hidden-xs">
+                                <span class="text-large-block">АН 23412412</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line-block-xs col-sm-6 col-md-12 col-xs-12 col-lg-12 line-block">
+                        <div class="row row-special">
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <span class="text-large-block upcase font-big-xs">Феофан Георгий</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">Мужской</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">Украина</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">12.12.1990</span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">АН 23412412</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 line-block-xs col-md-12 col-xs-12 col-lg-12 line-block ">
+                        <div class="row row-special">
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <span class="text-large-block upcase font-big-xs">Тарасов Петр</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">Мужской</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">Украина</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">12.12.1990</span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">АН 23412412</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 line-block-xs col-md-12 col-xs-12 col-lg-12 line-block">
+                        <div class="row row-special">
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <span class="text-large-block upcase font-big-xs">Курсаков Андрей</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">Мужской</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">Украина</span>
+                            </div>
+                            <div class="col-md-2 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">12.12.1990</span>
+                            </div>
+                            <div class="col-md-3 col-xs-12 hidden-xs col-sm-12">
+                                <span class="text-large-block">АН 23412412</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-xs-1 col-lg-1 col-md-1"></div>
+        </div>
+        <div class="row row-special padding-header-2 ">
+            <div class="col-sm-1 col-xs-1 col-lg-1 col-md-1"></div>
+            <div class="col-sm-10 col-md-10 col-lg-10 white-background-special border-ride block-checkout padding-left-right">
+                <div class="row row-special title-block">
+                    <div class="col-sm-12 col-lg-12 col-md-12">
+                        <span class="hidden-xs title-block">Контактные данные покупателя</span>
+                        <span class="visible-xs title-block">Покупатель</span>
+                    </div>
+                </div>
+
+                <div class="row row-special">
+                    <div class="col-md-12 hidden-xs col-sm-12 col-lg-12 line-block-small">
+                        <div class="row row-special">
+                            <div class="col-md-4 col-lg-4 col-sm-4">
+                                <span class="text-grey text-front-block">Фамилия Имя</span>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-sm-4">
+                                <span class="text-grey text-front-block">Телефон</span>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-sm-4">
+                                <span class="text-grey text-front-block">Email</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-special">
+                    <div class="col-md-12 col-sm-12 line-block-in">
+                        <div class="row row-special">
+                            <div class="col-md-4 col-lg-4 col-sm-4">
+                                <span class="text-large-block upcase">Тарасов Андрей</span>
+                            </div>
+                            <div class="col-md-4 col-lg-4 hidden-xs col-sm-4">
+                                <span class="text-large-block">+38 063 777 77 77</span>
+                            </div>
+                            <div class="col-md-4 col-lg-4 hidden-xs col-sm-4">
+                                <span class="text-large-block">tarasov@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-xs-1 col-lg-1 col-md-1"></div>
+        </div>
+        <div id="pay" class="row row-special hidden-xs padding-header-2">
+            <div class="col-sm-1 col-xs-1 col-lg-1 col-md-1 hidden-md"></div>
+            <div class="col-sm-10 col-md-12 col-lg-10 white-background border-ride block-checkout padding-left-right">
+                <div class="row row-special title-block">
+                    <div class="col-sm-12 col-xs-12 col-lg-12 col-md-12">
+                        <span class="title-block">Пакет услуг Сильпо Вояж</span>
+                        <p class="title-desc">Выберите подходящий для Вас пакет услуг нашей компании в зависимости от наличия опыта
+                            в путешествиях и предпочтения в уровне сериса обслуживания</p>
+                    </div>
+                </div>
+                <div class="row row-special">
+                    <div class=" col-md-4 col-sm-12 col-lg-4">
+                        <div data-id="min" class="item-service border-block checked-block">
+                            <div class="title">
+                                <span class="title-column  services">Минимальный<br></span>
+                                <span class="text-grey title-column"> Для опытных путешественников</span>
+                                <span class="border-services"></span>
+                            </div>
+                            <div class="content">
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Внесение изменений в заказ</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"> <span>400 грн.</span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Сбор за оформление возврата</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"> <span>400 грн.</span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">12 часов</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"><span></span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Электронная почта</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"><span></span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Сбор за заказ дополнительных услуг</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"><span>200 грн.</span></div>
+                                </div>
+                            </div>
+                            <div class="selected">
+                                <div class="row row-special padding-header-3">
+                                    <div class="col-sm-6 col-md-6 col-lg-6 text-left">
+                                        <span class="text-large-block">Бесплатно</span>
+                                    </div>
+                                    <div data-id="min" class=" first-service col-sm-6 col-md-6 col-lg-6 text-right">
+                                        <span class="text-grey">Выбрано</span>
+                                    </div>
+                                    <div class=" col-sm-6 col-md-6 col-lg-6 text-right">
+                                        <div id="min" style="display: none" class=" block btn-service submit border-radius-none col-md-12">
+                                            <span class=" btn btn-block border-radius-none reserv-btn">Выбрать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-4 col-sm-12 col-lg-4">
+                        <div data-id="rec" class="item-service border-block">
+                            <div class="title">
+                                <span class="title-column services">Рекомендуемый<br></span>
+                                <span class="text-grey title-column"> Для опытных путешественников</span>
+                                <span class="border-services"></span>
+                            </div>
+                            <div class="content">
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Внесение изменений в заказ</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"> <span>400 грн.</span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Сбор за оформление возврата</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"> <span>400 грн.</span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">12 часов</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"><span></span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Электронная почта</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"><span></span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Сбор за заказ дополнительных услуг</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"><span>200 грн.</span></div>
+                                </div>
+                            </div>
+                            <div class="selected">
+                                <div class="row row-special padding-header-3">
+                                    <div class="col-sm-6 col-md-6 col-lg-6 text-left">
+                                        <span class="text-large-block">99 грн</span>
+                                    </div>
+                                    <div data-id="rec" class="hide-service first-service col-sm-6 col-md-6 col-lg-6 text-right">
+                                        <span class="text-grey">Выбрано</span>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-6 text-right">
+                                        <div id="rec" class="block btn-service submit border-radius-none col-md-12">
+                                            <span class=" btn btn-block border-radius-none reserv-btn">Выбрать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-4 col-sm-12 col-lg-4">
+                        <div data-id="prem" class="item-service border-block">
+                            <div class="title">
+                                <span class="title-column services">Премиум<br></span>
+                                <span class="text-grey title-column"> Для опытных путешественников</span>
+                                <span class="border-services"></span>
+                            </div>
+                            <div class="content">
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Внесение изменений в заказ</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"> <span>400 грн.</span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Сбор за оформление возврата</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"> <span>400 грн.</span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">12 часов</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"><span></span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span class="underline modal-link modalService" data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг">Электронная почта</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"><span></span></div>
+                                </div>
+                                <div class="row row-special items">
+                                    <div class="col-md-8 col-sm-8 col-lg-8">
+                                        <span data-toggle="modal" data-target=".bs-example-modal-lg"  data-content="Описание дополнительных услуг" class="underline modal-link modalService">Сбор за заказ дополнительных услуг</span>
+                                        <!--<span data-toggle="modal" data-target=".bs-example-modal-lg" id="moreInformation"-->
+                                              <!--class="modal-link modalS link-block underline-text">Что включено в стоимость</span>-->
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-lg-4 text-right"><span>200 грн.</span></div>
+                                </div>
+                            </div>
+                            <div class="selected">
+                                <div class="row row-special padding-header-3">
+                                    <div class="col-sm-6 col-md-6 col-lg-6 text-left">
+                                        <span class="text-large-block">200 грн</span>
+                                    </div>
+                                    <div data-id="prem" class="hide-service first-service col-sm-6 col-md-6 col-lg-6 text-right">
+                                        <span class="text-grey">Выбрано</span>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-6 text-right">
+                                        <div id="prem" class="block btn-service submit border-radius-none col-md-12">
+                                            <span class="btn btn-block border-radius-none reserv-btn" >Выбрать</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-special padding-header-5">
+                    <div class="col-md-12 col-sm-12 col-lg-12">
+                        <p>Обратите внимание, что согласно правилам выбраного тарифа, при возврате/обмене билета авиакомпания может удерживать дополнительный штраф
+                            <a  data-toggle="popover"
+                                data-content="<ul>
+                            <li>Вы имеете право на скидку</li>
+                            <li>Вам предоставляется сервис согласно прайсу</li>
+                            </ul>"
+                                class="link-block-desc" >
+                                <span > Ознакомиться с правилами</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-xs-1 col-lg-1 col-md-1"></div>
+        </div>
+        <div class="visible-xs row white-background row-special padding-bottom">
+            <div class="col-xs-12 padding-left-right-spec padding-header-0">
+                <h3>Пакет услуг СильпоВояж</h3>
+            </div>
+            <div class="col-xs-12 padding-left-right-spec padding-header-0">
+                <div class="radio-inline">
+                    <input type="radio" value="0" name="pack"  class="radio-style" id="success555">
+                    <label for="success555" class="radio-gender-check"></label>
+                </div>
+                <span class="text-large-block underline-text font-checkbox"> Минимальный</span>
+                <span class="text-large-block pull-right">400 grn.</span>
+                <ul class="checkbox-xs padding-header-0">
+                    <li>Внесение изменений в заказ</li>
+                    <li>Телефон и адрес</li>
+                    <li>Внесение изменений в заказ</li>
+
+                    <li>2 часа</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 padding-left-right-spec line-block-routes padding-header-0">
+                <div class="radio-inline">
+                    <input type="radio" name="pack" checked value="1" class="radio-style" id="success666">
+                    <label for="success666" class="radio-gender-check"></label>
+                </div>
+                <span class="text-large-block font-checkbox"> Рекомендуемый</span>
+                <span class="text-large-block pull-right">890 grn.</span>
+                <ul class="padding-header-0">
+                    <li>Внесение изменений в заказ</li>
+                    <li>Телефон и адрес</li>
+                    <li>Внесение изменений в заказ</li>
+
+                    <li>2 часа</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 padding-left-right-spec padding-header-0">
+                <div class="radio-inline">
+                    <input type="radio" value="3" name="pack"  class="radio-style" id="success777">
+                    <label for="success777" class="radio-gender-check"></label>
+                </div>
+                <span class="text-large-block underline-text font-checkbox"> Премиум</span>
+                <span class="text-large-block pull-right">4100 grn.</span>
+                <ul class="checkbox-xs padding-header-0">
+                    <li>Внесение изменений в заказ</li>
+                    <li>Телефон и адрес</li>
+                    <li>Внесение изменений в заказ</li>
+                    <li>2 часа</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row row-special padding-header-2">
+            <div class="col-sm-1 col-xs-1 col-lg-1 col-md-1"></div>
+            <div class="col-sm-10 padding-left-right col-md-10 col-lg-10 grey-background-xs white-background border-ride">
+                <div class="row row-special title-block padding-header">
+                    <h3>Выберите удобный для Вас метод оплаты</h3>
+                </div>
+                <div class="row row-special padding-bottom">
+                    <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6">
+                        <div data-id="bank" class="border-min pay-class">
+                            <span><b>Банковской картой</b> <br></span>
+                            <span class="text-grey">11 700 грн.</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6">
+                        <div data-id="fiz" class="border-std  pay-class">
+                            <span><b>Физическое лицо</b> <br></span>
+                            <span class="text-grey">11 700 грн.</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6">
+                        <div data-id="ur" class="border-std  pay-class">
+                            <span><b>Юридическое лицо</b> <br></span>
+                            <span class="text-grey">11 700 грн.</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 cpl-lg-3 col-xs-6 col-sm-6">
+                        <div class="border-std pay-class" data-id="nal">
+                            <span><b>Наличными в офисе</b> <br></span>
+                            <span class="text-grey">11 700 грн.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-special item-pay" id="bank">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 padding-bottom">
+                        <img src="images/credit-card-bg.png" class="img-responsive hidden-xs" style="padding-left: 150px !important;">
+                        <div class="row row-special visible-xs">
+                            <div class="col-xs-12">
+                                <div class="row row-special">
+                                    <div class="col-xs-9">
+                                        <span class="underline-text-link text-large-block font-checkbox">Банковская карта</span>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <span class="text-right">12 496 грн.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="row row-special">
+                                        <div class="col-xs-3">
+                                            <div class="form-group padding-header-0">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <div class="form-group padding-header-0">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <div class="form-group padding-header-0">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <div class="form-group padding-header-0">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="col-xs-12">
+                                <div class="row row-special">
+                                    <div  class="col-xs-3">
+                                        <select class="form-control"><option>MM</option></select>
+                                    </div>
+                                    <div  class="col-xs-3">
+                                        <select class="form-control"><option>YY</option></select>
+                                    </div>
+                                    <div  class="col-xs-3">
+
+                                    </div>
+                                    <div  class="col-xs-3">
+                                        <input type="text" class="form-control" placeholder="CVV">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 padding-header-5 visible-xs">
+                                <div class="block submit border-radius-none col-md-4 col-lg-4 col-xs-12 col-sm-6">
+                                    <a class="btn-service btn btn-block border-radius-none pay-btn reserv-btn" href="#">Оплатить 11 400 грн.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-special item-pay hide-service" id="fiz">
+                    <div class=" col-sm-12 col-xs-12 col-lg-12 col-md-12 moreInfo padding-bottom">
+                        <div class="">
+                            <p>Для оплаты используйте сгенерированый счет.</p>
+                            <p>Обратите внимания, что срок действия счёта 3 банковских дня.</p>
+                        </div>
+                        <button class="btn text-button border-min-route btn-default hidden-xs hidden-sm">Распечатать</button>
+                        <button class="btn text-button-pdf border-min-route btn-default hidden-xs hidden-sm">Скачать pdf</button>
+                        <button class="btn text-button border-min-route btn-default hidden-xs hidden-sm">Отправить на почту</button>
+
+                        <div class=" padding-bottom padding-header-3 visible-xs visible-sm">
+                            <span>Счет: </span>
+                            <a class="special-orange" href="#">HTML</a> |
+                            <a class="special-orange" href="#">PDF</a> |
+                            <a class="special-orange" href="#">Отправить на почту</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row row-special item-pay hide-service" id="ur">
+                    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                        <p>Для оплаты используйте сгенерированый счет.</p>
+                        <p>Обратите внимания, что срок действия счёта 3 банковских дня.</p>
+                        <div class="row row-special">
+                            <div class="col-lg-4 col-md-4 col-md-12 col-xs-12">
+                                <div class="form-group padding-header-0">
+                                    <input type="text" class="form-control" placeholder="Название юр.лица - плательщика">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visible-xs visible-sm">
+                            <span>Счет: </span>
+                            <a class="special-orange" href="#">HTML</a> |
+                            <a class="special-orange" href="#">PDF</a> |
+                            <a class="special-orange" href="#">Отправить на почту</a>
+                        </div>
+                        <div class="visible-lg visible-md">
+                            <button class="btn text-button border-min-route btn-default">Распечатать</button>
+                            <button class="btn text-button-pdf border-min-route btn-default">Скачать pdf</button>
+                            <button class="btn text-button border-min-route btn-default">Отправить на почту</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-special item-pay  hide-service" id="nal">
+                    <div class="visible-lg col-lg-12 visible-md col-md-12 page_content_wrapper container">
+                        <img width="915px"
+                             height="415px" src="images/office_map.png">
+                        <div class="clear"></div>
+                    </div>
+                    <div class="padding-left-right visible-xs visible-sm padding-bottom col-xs-12">
+                        <span class="special-orange">Берковецкая, 2</span><span class="text-grey"> —  ТЦ Океан</span><br>
+                        <span class="special-orange">Ильинская, 8, 21</span><span class="text-grey"> —  ТЦ Квадрат</span><br>
+                        <span class="special-orange">Лукъяновская, 17</span><span class="text-grey"> —  ТЦ Аквамарин</span><br>
+                        <span class="special-orange">Берковецкая, 2</span><span class="text-grey"> —  ТЦ Океан</span><br>
+                        <span class="special-orange">Берковецкая, 2</span><span class="text-grey"> —  ТЦ Океан</span><br>
+                        <span class="special-orange">Берковецкая, 2</span><span class="text-grey"> —  ТЦ Океан</span><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1"></div>
+        </div>
+        <div class="row row-special">
+            <div class="col-md-1 col-lg-1 visible-lg visible-md"></div>
+            <div class="col-md-10 white-background padding-header-0 col-xs-12 col-sm-12 col-lg-10 padding-left-right here">
+
+                <div class="row row-special padding-bottom padding-header-0">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="col-md-4 col-sm-4 padding-header-0">
+                            <span data-toggle="modal" data-target=".bs-example-modal-lg" id="moreInformation"
+                                  class="modal-link modalS link-block underline-text">Что включено в стоимость</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="">
+    <div class="body-content">
+        <div class="content-footer">
+            <div class="head col-sm-12">
+                <div class="info-links row row-special">
+                    <div class="phones col-sm-4 col-lg-2 col-xs-12">
+                        <a class="js-ringostat" onclick="window.location.href = 'tel:'+ this.textContent">044 392 06 06</a>
+                    </div>
+                    <div class="social-btn col-lg-2 col-md-2 col-xs-6 col-sm-2 hidden padding-header-0">
+                        <div class="fb pull-left" title="facebook"></div>
+                        <div class="vk pull-left" title="Вконтакте"></div>
+                    </div>
+                    <div class="head-links col-sm-8 col-md-8 col-lg-8 hidden-xs">
+                        <ul>
+                            <li>
+                                <a onclick="window.location.href = 'http://silpovoyage.local.devel.silpovoyage.com.ua';">Туры</a>
+                            </li>
+                            <li>
+                                <a class="active">Авиабилеты</a>
+                            </li>
+                            <li>
+                                <a onclick="window.location.href = '#';">Ж/д билеты</a>
+                            </li>
+                            <li>
+                                <a onclick="window.location.href = '#';">Отели</a>
+                            </li>
+                            <li>
+                                <a onclick="window.location.href = '#';">Страховки</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer-links">
+                    <div class="links">
+                        <a href="#" rel="noffolow" class="js-SubsribeAjaxWidget">Подписаться на рассылку</a>
+                        <a href="#" rel="noffolow" onclick="window.location.href = 'http://silpovoyage.local.devel.silpovoyage.com.ua/about';">О компании</a>
+                        <a href="#" rel="noffolow" onclick="window.location.href = 'http://silpovoyage.local.devel.silpovoyage.com.ua/offices'">Наши офисы</a>
+                        <a href="#" rel="noffolow" class="js-FeedbackAjaxWidget">Обратная связь</a>                                                                            <a href="http://avia.silpovoyage.local.devel.silpovoyage.com.ua/aviabilety">Авиабилеты</a>
+                        <a href="http://avia.silpovoyage.local.devel.silpovoyage.com.ua/airlines">Авиакомпании</a>
+                        <a href="http://avia.silpovoyage.local.devel.silpovoyage.com.ua/sitemap.html">Карта сайта</a>
+                    </div>
+                    <span class="copyright">© 2016. Сильпо Вояж</span>
+                </div>
+            </div>
+        </div>
+        <div class="partners">
+            <div class="master" onclick="window.open('http://www.mastercardbusiness.com/mcbiz/index.jsp?template=/orphans&amp;content=securecodepopup','Chargeback','toolbar=0,location=1,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=550,height=380')"></div>
+            <div class="visa" onclick="window.open('http://usa.visa.com/personal/security/security-program/verified-by-visa.jsp','Chargeback','toolbar=0,location=1,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=450,height=400')"></div>
+            <div class="iata"></div>
+        </div>
+        <div class="social-footer col-sm-12">
+            <div class="row row-special">
+                <div class="social-btn col-xs-5 visible-lg">
+                    <div class="fb pull-left" title="facebook"></div>
+                    <div class="vk pull-left" title="Вконтакте"></div>
+                </div>
+                <div class="col-xs-7 hidden">
+                    <span class="copyright text-right">© 2016. Сильпо Вояж</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

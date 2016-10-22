@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="css/jquery.loader.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<header class="offer">
+    <nav class="body-content row">
+        <div class="navigation">
+            <div class="logo">
+                <img src="images/logo_silpo.png" class="img-responsive">
+            </div>
+            <div class="header-title"></div>
+            <div class="telephone visible-xs visible-sm">
+                <div class="icon"></div>
+            </div>
+            <div class="header">
+                <button type="button" class="navbar-toggle collapsed">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <ul>
+                <li class="">
+                    <a href="http://silpovoyage.local.devel.silpovoyage.com.ua">Туры</a> </li>
+                <li class="active">
+                    <a href="#">Авиабилеты</a>                       </li>
+                <li class="">
+                    <a href="#">Наши офисы</a>                        </li>
+            </ul>
+        </div>
+        <div class="telephone visible-lg visible-md pull-right">
+            <div class="icon"></div>
+            <div class="info">
+                <span class="text">044 233 07 48</span>
+                <div class="callback">
+                    <a href="#">обратный звонок</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="content">
+    <div class="body-content">
+        <div class="row row-special hidden-sm hidden-xs">
+            <div class="col-md-1 col-lg-1 visible-lg visible-md"></div>
+            <div class="col-sm-12 col-md-10 border-ride padding-bottom-light">
+                <div class="row row-special">
+                    <div class="col-md-4">
+                        <a class="link-block-without-head" href="#">←вернуться к результатам поиска</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-special">
+            <div class="col-md-1 col-lg-1 visible-lg visible-md"></div>
+            <div class="col-sm-12 col-md-10 col-lg-10 border-ride block-checkout-order">
+                <div class="row row-special order-col offer-back">
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                        <span class="logo offer-back from-air"></span>
+                        <span class="text-large-block">Киев (KBP) - Амстердам (AMS), 14 января</span>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4 hidden-xs text-right">
+                        <span class="text-large-block">Время в пути: 5 ч 00 мин</span>
+                    </div>
+                </div>
+                <div class="padding-header order-col row row-special white-background">
+                    <div class="col-md-3 col-xs-12 col-lg-2 col-sm-6">
+                        <span class="text-grey title-column">Рейс</span>
+                        <span class="value-column text-large-block">LH-12321</span>
+                        <span class="value-column">
+                                <span class="visible-xs visible-sm">Норма багажа</span>
+                                <span class="hidden-xs hidden-sm">Бесплатная норма провоза багажа</span>
+                        <a  data-toggle="popover"
+                            data-content="<div class='ul-width-2'>
+                            <div>
+                            <b>Взрослый: </b><span>Ручная кладь + 1 сумка зарегистрированного багажа на пассажира</span>
+                            </div><br>
+                            <div>
+                            <b>Детский: </b><span>Ручная кладь + 1 сумка зарегистрированного багажа на пассажира</span>
+                            </div>
+                            </div>"
+                            class=" hidden-xs" >
+                            <span class="custom-question">?</span>
+                        </a>
+                        </span>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-lg-3">
+                        <span class="text-grey title-column">Вылет</span>
+                        <span class="value-column text-large-block">12 янв, 06:32</span>
+                        <span class="value-column">Киев, Борисполь</span>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-lg-3 hidden-xs">
+                        <span class="text-grey title-column">Время в пути</span>
+                        <span class="value-column text-large-block">2ч 40 мин</span>
+                        <span class="value-column">Эконом класс(W)</span>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-lg-2 hidden-xs">
+                        <span class="text-grey title-column">Прилет</span>
+                        <span class="value-column text-large-block">14 янв, 06:32</span>
+                        <span class="value-column">Мюнхен (MUC)</span>
+                    </div>
+                    <div class="col-md-2 col-sm-12 col-lg-2 hidden-sm hidden-xs">
+                        <img class="img-responsive-order" src="images/logotype_1318_0.jpg">
+                        <span class=" value-column">Boeing 737</span>
+                    </div>
+                </div>
+                <div class="row row-special order-col white-background line-block-order">
+                    <div class="col-sm-12">
+                        <span class="">Пересадка в Мюнхене - <b>1 ч 10 мин</b></span>
+                    </div>
+                </div>
+                <div class="padding-header-0 order-col row row-special white-background">
+                    <div class="col-md-3 col-sm-6 col-lg-2">
+                        <span class="text-grey title-column">Рейс</span>
+                        <span class="value-column text-large-block">LH-12321</span>
+                        <span class="value-column"></span>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-lg-3">
+                        <span class="text-grey title-column">Вылет</span>
+                        <span class="value-column text-large-block">12 янв, 06:32</span>
+                        <span class="value-column">Мюнхен (MUC)</span>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-lg-3 hidden-xs">
+                        <span class="text-grey title-column">Время в пути</span>
+                        <span class="value-column text-large-block">1ч 40 мин</span>
+                        <span class="value-column">Эконом класс(W)</span>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-lg-2 hidden-xs">
+                        <span class="text-grey title-column">Прилет</span>
+                        <span class="value-column text-large-block">14 янв, 06:32</span>
+                        <span class="value-column">Амстердам, Схипхол (AMS)</span>
+                    </div>
+                    <div class="col-md-2 col-lg-2 hidden-sm hidden-xs">
+                        <img class="img-responsive-order" src="images/logotype_1318_0.jpg">
+                        <span class=" value-column">Aurobus 453</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="row row-special">
+            <div class="col-md-1 col-lg-1 visible-lg visible-md"></div>
+            <div class="col-sm-12 col-md-10 col-lg-10 border-ride block-checkout-order">
+                <div class="row row-special order-col offer-back">
+                    <div class="col-sm-8">
+                        <span class="logo offer-back from-air"></span>
+                        <span class="text-large-block">Амстердам (AMS) - Киев(KBP), 17-18 янв,</span>
+                    </div>
+                    <div class="col-sm-4 text-right hidden-xs"><span class="text-large-block">Время в пути: 5 ч 00 мин</span></div>
+                </div>
+                <div class="padding-header-0 order-col row row-special white-background">
+                    <div class="col-md-3 col-sm-6 col-lg-2">
+                        <span class="text-grey title-column">Рейс</span>
+                        <span class="value-column text-large-block">LH-121</span>
+                        <span class="value-column"></span>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-lg-3">
+                        <span class="text-grey title-column">Вылет</span>
+                        <span class="value-column text-large-block">17 янв, 06:32</span>
+                        <span class="value-column">Амстердам, Схипхол (AMS)</span>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-lg-3 hidden-xs">
+                        <span class="text-grey title-column">Время в пути</span>
+                        <span class="value-column text-large-block">2ч 40 мин</span>
+                        <span class="value-column">Эконом класс(W)</span>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-lg-2 hidden-xs">
+                        <span class="text-grey title-column">Прилет</span>
+                        <span class="value-column text-large-block">14 янв, 06:32</span>
+                        <span class="value-column">Киев, Борисполь</span>
+                    </div>
+                    <div class="col-md-2 col-lg-2 hidden-sm hidden-xs">
+                        <img class="img-responsive-order" src="images/logotype_1318_0.jpg">
+                        <span class=" value-column">Boeing 737</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<div class="row row-special">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="row row-special">
+            <div class="col-md-1 col-lg-1 visible-lg visible-md"></div>
+            <div class="col-sm-12 col-md-10 col-lg-10 white-background border-ride block-checkout-order padding-header-2 padding-left-right border-bottom-line">
+                <div class="row row-special title-block">
+                    <div class="col-md-12 col-xs-12">
+                        <span class="title-block">Пассажир 1</span><br>
+                        <span class="text-grey text-front-block">Взрослый</span>
+                    </div>
+                </div>
+                <div class="row row-special">
+                    <div class="col-md-5 col-xs-6 col-lg-5 col-sm-6">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control" placeholder="Фамилия латиницей">
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-xs-6 col-lg-5 col-sm-6">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control" placeholder="Имя латиницей">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-xs-6 col-lg-2 col-sm-6">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control input-birthday" placeholder="Дата рождения">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
+                        <div class="padding-header-5-b form-group">
+                            <span class="text-grey hidden-xs">Пол</span>
+                            <div class="radio-inline">
+                                <input type="radio" class="radio-style" id="male-gender-11" name="gender" value="1">
+                                <label for="male-gender-11" class="radio-gender-check"></label>
+                                <label for="male-gender-11" class="radio-gender">Мужской</label>
+                            </div>
+                            <div class="radio-inline">
+                                <input type="radio" class="radio-style" id="male-gender-22" name="gender" value="0">
+                                <label for="male-gender-22" class="radio-gender-check"></label>
+                                <label for="male-gender-22" class="radio-gender">Женский</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 col-lg-3 col-sm-6">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control" placeholder="Гражданство">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control" placeholder="Серия и номер загранпаспорта">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 co-xs-6 col-sm-12">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control input-birthday" placeholder="Годен до:">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-special border-bottom-line padding-header-0">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <div class="loyal padding-header-0">
+                            <span class="underline-text-link" href="">Вести карту лояльности</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-special padding-header-0">
+                    <div class="col-xs-12 line-block-route visible-xs">
+
+                    </div>
+                </div>
+                <div class="row row-special">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <div class="padding-header-0">
+                            <p class="">
+                                <span style="font-size: 16px" class="text-large-block">Норма провоза зарегистрированного багажа</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-special">
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <div class="padding-header-0">
+                            <p class="text-bold">
+                                Киев - Амстердам
+                            </p>
+                            <p>
+                                1 место багажа весом 23 кг уже включено
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+                        <div class="padding-header-0">
+                            <p class="text-bold">
+                                Амстердам - Киев
+                            </p>
+                            <p>
+                                Сдаваемый багаж не включен
+                            </p>
+                            <p>
+                                Вы сможете докупить багаж после бронирования <br> обратившись по телефону 0 800 886 31 50
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-special">
+            <div class="col-md-1 col-lg-1 visible-lg visible-md"></div>
+            <div class="col-sm-12 col-md-10 col-lg-10 white-background border-ride block-checkout-order padding-left-right">
+                <div class="row row-special title-block">
+                    <div class="col-md-12 col-xs-12">
+                        <span class="title-block">Пассажир 2</span><br>
+                        <span class="text-grey text-front-block">Взрослый</span>
+                    </div>
+                </div>
+                <div class="row row-special">
+                    <div class="col-md-5 col-xs-6 col-lg-5 col-sm-6">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control" placeholder="Фамилия латиницей">
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-xs-6 col-lg-5 col-sm-6">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control" placeholder="Имя латиницей">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-xs-6 col-lg-2 col-sm-6">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control input-birthday" placeholder="Дата рождения">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
+                        <div class="padding-header-5-b form-group">
+                            <span class="text-grey hidden-xs">Пол</span>
+                            <div class="radio-inline">
+                                <input type="radio" class="radio-style" id="male-gender-11" name="gender" value="1">
+                                <label for="male-gender-11" class="radio-gender-check"></label>
+                                <label for="male-gender-11" class="radio-gender">Мужской</label>
+                            </div>
+                            <div class="radio-inline">
+                                <input type="radio" class="radio-style" id="male-gender-22" name="gender" value="0">
+                                <label for="male-gender-22" class="radio-gender-check"></label>
+                                <label for="male-gender-22" class="radio-gender">Женский</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 col-lg-3 col-sm-6">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control" placeholder="Гражданство">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control" placeholder="Серия и номер загранпаспорта">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 co-xs-6 col-sm-12">
+                        <!--<div class="form-group padding-header-0">-->
+                            <!--<input type="text" class="form-control input-birthday" placeholder="Годен до:">-->
+                        <!--</div>-->
+                        <div class="user_phone form-group padding-header-0">
+                            <input class=" input-birthday form-control" type="text" required pattern="[0-9_-]{8}" placeholder="Годен до:" id="" title="Формат: 99.99.9999" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-special">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <div class="loyal padding-header-0">
+                            <span class="underline-text-link" href="">Вести карту лояльности</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-special padding-header-0">
+                    <div class="col-xs-12 line-block-route visible-xs">
+
+                    </div>
+                </div>
+                <div class="row row-special line-block">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <div class="padding-header-0">
+                            <p class="">
+                                <span style="font-size: 16px" class="text-large-block">Норма провоза зарегистрированного багажа</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-special">
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <div class="padding-header-0">
+                            <p class="text-bold">
+                                Киев - Амстердам
+                            </p>
+                            <p>
+                                1 место багажа весом 23 кг уже включено
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+                        <div class="padding-header-0">
+                            <p class="text-bold">
+                                Амстердам - Киев
+                            </p>
+                            <p>
+                                Сдаваемый багаж не включен
+                            </p>
+                            <p>
+                                Вы сможете докупить багаж после бронирования <br> обратившись по телефону 0 800 886 31 50
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+        <div class="row row-special padding-header-2">
+            <div class="col-md-1 col-lg-1 visible-lg visible-md"></div>
+            <div class="col-sm-12 col-md-10 col-lg-10 white-background border-ride block-checkout padding-left-right">
+                <div class="row row-special title-block">
+                    <div class="col-md-12 col-lg-12">
+                        <span class="title-block">Контактные данные покупателя</span><br>
+                    </div>
+                </div>
+                <div class="row row-special">
+                    <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12">
+                        <div class="form-group padding-header-0">
+                            <input type="text" class="form-control" placeholder="Имя">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12">
+                        <div class="user_phone form-group padding-header-0">
+                            <input class="form-control user_phone" type="tel" required pattern="[0-9_-]{12}" placeholder="Телефон" id="user_phone" title="Формат: +38 (096) 999 99 99" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                        <div class="form-group padding-header-0">
+                            <input type="email" class="form-control" placeholder="E-mail">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-special">
+            <div class="col-md-1 col-lg-1 visible-lg visible-md"></div>
+            <div class="col-md-10 col-xs-12 col-sm-12 col-lg-10 padding-left here" style="background-color: #D6DBF0 !important;">
+
+                <div class="row row-special padding-header">
+                    <div class="col-md-12 col-xs-10 col-lg-12 col-sm-10 padding-left-right">
+                        <div class="col-md-1 col-lg-1 col-sm-1 col-xs-2 visible-xs">
+                            <img src="https://my.silpo.ua/img/logo.png" class="img-responsive" alt="Silpo">
+                        </div>
+                        <span class="text-large-block"><span class=" text-large-block hidden-xs">С этой покупки</span> Вам будет начислено 12 540 бонусов Сильпо Вояж  </span>
+                        <a data-toggle="popover"
+                            data-content="<ul>
+                            <li>Вы имеете право на скидку</li>
+                            <li>Вам предоставляется сервис согласно прайсу</li>
+                            </ul>"
+                            class=" hidden-xs" >
+                            <span class="glyphicon glyphicon-question-sign" aria-hidden="false"></span>
+                            <span class="link-block"> правила программы </span>
+                        </a>
+                    </div>
+
+                    <div class="col-md-12 col-lg-12 col-xs-10 padding-left-right">
+                        <div class="row row-special">
+                            <div class="col-md-1 col-lg-1 col-sm-1 col-xs-2 hidden-xs padding-header">
+                                <img src="https://my.silpo.ua/img/logo.png" class="img-responsive" alt="Silpo">
+                            </div>
+                            <div class="col-md-2 col-xs-2 col-sm-2 col-lg-1 hidden-xs padding-header-4">
+                                <span class="text-large-block-footer">12 540 <br></span><span class="text-large-block">баллов</span>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-sm-5 col-xs-12 form-group padding-header-4">
+                                <input type="number" class="form-control input-bonus" placeholder="Номер карты Власного Рахунку">
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 hidden-xs padding-header-6">
+                                <span class="text-grey">для начисления бонусов</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row row-special">
+            <div class="col-md-1 col-lg-1 visible-lg visible-md"></div>
+            <div class="col-md-10 col-sm-12 col-lg-10 col-xs-12 white-background">
+                <div class="row row-special ">
+                    <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 padding-left-right padding-header-0">
+                        <div class="checkbox-inline">
+                            <input type="checkbox" value="" name="success"  class="check-style" id="success">
+                            <label for="success" class="check-gender-check"></label>
+                        </div>
+                            <span class="padding-lg-2">
+                                Я ознакомлен и согласен с <a class="link-block-desc" href="#">правилами бронирования</a>, правилами предоставления дополнительных услуг, <a class="link-block-desc" href="#">условиями применения
+                                тарифов</a> и <a class="link-block-desc" href="" >правами субъекта персональных данных</a>. Я согласен и подтверждаю согласие
+                            третьих лиц, указанных мной в бронировании, на обработку персональных данных,
+                            в том числе на их передачу третьим лицам, обеспечивающим или обслуживающим перевозку,
+                            а также на трансграничную передачу персональных данных
+                            </span>
+                    </div>
+                    <div class="visible-sm padding-bottom"></div>
+                </div>
+                <div class="row row-special padding-bottom padding-header-2">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 padding-left-right padding-header-0">
+                        <div class="block submit border-radius-none col-md-5 col-sm-5 col-lg-5 col-md-5">
+                            <a class="btn-service btn btn-block border-radius-none pay-btn reserv-btn" href="#">
+                                Перейти к оплате <span class="pay-index">11 400 грн.</span><span class="pay-new hide-service">10 100грн.</span></a>
+                        </div>
+                        <div id="promo" class="col-md-3 col-lg-3 col-sm-3 padding-header-0">
+                            <span class="underline-text text-bold show-input">У меня есть промокод</span>
+                        </div>
+                        <div id="promo1" class="padding-header-0 col-lg-1 col-md-1 col-xs-1 col-sm-1 hide">
+
+                        </div>
+                        <div class="col-md-4 col-sm-4 padding-header-0">
+                            <span data-toggle="modal" data-target=".bs-example-modal-lg" id="moreInformation" class="modal-link modalS underline-text">Что включено в стоимость</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<footer class="">
+    <div class="body-content">
+        <div class="content-footer">
+            <div class="head col-sm-12">
+                <div class="info-links row row-special">
+                    <div class="phones col-sm-4 col-lg-2 col-xs-12">
+                        <a class="js-ringostat" onclick="window.location.href = 'tel:'+ this.textContent">044 392 06 06</a>
+                    </div>
+                    <div class="social-btn col-lg-2 col-md-2 col-xs-6 col-sm-2 hidden padding-header-0">
+                        <div class="fb pull-left" title="facebook"></div>
+                        <div class="vk pull-left" title="Вконтакте"></div>
+                    </div>
+                    <div class="head-links col-sm-8 col-md-8 col-lg-8 hidden-xs">
+                        <ul>
+                            <li>
+                                <a onclick="window.location.href = 'http://silpovoyage.local.devel.silpovoyage.com.ua';">Туры</a>
+                            </li>
+                            <li>
+                                <a class="active">Авиабилеты</a>
+                            </li>
+                            <li>
+                                <a onclick="window.location.href = '#';">Ж/д билеты</a>
+                            </li>
+                            <li>
+                                <a onclick="window.location.href = '#';">Отели</a>
+                            </li>
+                            <li>
+                                <a onclick="window.location.href = '#';">Страховки</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer-links">
+                    <div class="links">
+                        <a href="#" rel="noffolow" class="js-SubsribeAjaxWidget">Подписаться на рассылку</a>
+                        <a href="#" rel="noffolow" onclick="window.location.href = 'http://silpovoyage.local.devel.silpovoyage.com.ua/about';">О компании</a>
+                        <a href="#" rel="noffolow" onclick="window.location.href = 'http://silpovoyage.local.devel.silpovoyage.com.ua/offices'">Наши офисы</a>
+                        <a href="#" rel="noffolow" class="js-FeedbackAjaxWidget">Обратная связь</a>                                                                            <a href="http://avia.silpovoyage.local.devel.silpovoyage.com.ua/aviabilety">Авиабилеты</a>
+                        <a href="http://avia.silpovoyage.local.devel.silpovoyage.com.ua/airlines">Авиакомпании</a>
+                        <a href="http://avia.silpovoyage.local.devel.silpovoyage.com.ua/sitemap.html">Карта сайта</a>
+                    </div>
+                    <span class="copyright">© 2016. Сильпо Вояж</span>
+                </div>
+            </div>
+        </div>
+        <div class="partners">
+            <div class="master" onclick="window.open('http://www.mastercardbusiness.com/mcbiz/index.jsp?template=/orphans&amp;content=securecodepopup','Chargeback','toolbar=0,location=1,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=550,height=380')"></div>
+            <div class="visa" onclick="window.open('http://usa.visa.com/personal/security/security-program/verified-by-visa.jsp','Chargeback','toolbar=0,location=1,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=450,height=400')"></div>
+            <div class="iata"></div>
+        </div>
+        <div class="social-footer col-sm-12">
+            <div class="row row-special">
+                <div class="social-btn col-xs-5 visible-lg">
+                    <div class="fb pull-left" title="facebook"></div>
+                    <div class="vk pull-left" title="Вконтакте"></div>
+                </div>
+                <div class="col-xs-7 hidden">
+                    <span class="copyright text-right">© 2016. Сильпо Вояж</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="body-content hide">
+
+    </div>
+    <script>
+
+    </script>
+    <script src="js/jquery.loader.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/is.mobile.js"></script>
+    <script src="js/phone.js"></script>
+
+</footer>
+</body>
+</html>
