@@ -1,0 +1,324 @@
+ASSIGNMENTS
+
+TOP-PURPLE BAR
+
+/* Base text style */
+color: white;
+font-family: Lato;
+font-weight: 700;
+letter-spacing: 0.03em;
+
+/* Text style for "17." */
+font-size: 13px;
+
+/* Text style for "Place Valu" */
+font-size: 20px;
+
+/* purple bg */
+height: 61px;
+background-color: #6861fc;
+
+FILTER
+
+/* Filter labels */
+color: white;
+font-family: Lato;
+font-size: 13px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.03em;
+
+/* Style for "easy" */
+width: 12px;
+height: 12px;
+background-color: white;
+border: 1px solid #04cae8;
+
+/* Style for "medium" */
+background-color: white;
+border: 1px solid #ffc53b;
+
+/* Style for "hard" */
+
+background-color: white;
+border: 1px solid #fb417a;
+
+
+Checked filter items
+/* EASY LABEL */
+color: #04cae8;
+
+/* EASY CIRCLE */
+background-color: #04cae8;
+border: 1px solid #04cae8;
+
+/* MEDIUM LABEL */
+color: #ffc53b;
+
+/* MEDIUM CIRCLE */
+background-color: #ffc53b;
+border: 1px solid #ffc53b;
+
+
+/* HARD LABEL */
+color: #fb417a;
+
+/* HARD CIRCLE */
+background-color: #fb417a;
+border: 1px solid #fb417a;
+
+
+Filter amends when side panel is colapsed
+
+/* label */
+color: #b2afb0;
+
+
+
+SIDE PANEL WITH SUBTOPICS
+
+/* white bg */
+width: 449px;
+height: 968px;
+background-color: white;
+border-radius: 30px;
+box-shadow: 0.5px 0.9px 3px rgba(4, 4, 4, 0.24);
+
+/* selected row */
+width: 465px;
+height: 61px;
+background-color: #9dc729;
+
+
+/* Base text style */
+color: #898989;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+
+/* Base text style */
+width: 302px;
+color: black;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+
+
+/* Subtopic on hover */
+color: #6861fc;
+
+
+/* Selected subtopic */
+color: white;
+font-weight: 600;
+
+/* Hide link */
+color: #6861fc;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+
+
+
+ASSIGNMENTS CARDS WITH PUZZLES
+
+Easy-Blue Assign.
+/* Assgn. title */
+color: #04cae8;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0.03em;
+
+/* Card bg */
+width: 360px;
+height: 603px;
+background-color: white;
+border: 2px solid #6bdefb;
+border-radius: 15px;
+box-shadow: 0.5px 0.9px 3px rgba(4, 4, 4, 0.15);
+
+Medium-Yellow Assign.
+/* Assgn. title */
+color: #f9d405;
+
+
+/* Card bg */
+border: 2px solid #fde541;
+
+
+Pink-Hard Assign.
+/* Assgn. title */
+color: #ef4380;
+
+/* Card bg */
+border: 2px solid #fe6fab;
+
+
+
+PUZZLES 
+
+/* puzzle number */
+color: #979696;
+font-size: 12px;
+font-weight: 700;
+
+
+/* puzzle on hover */
+box-shadow: 0.5px 0.9px 3px rgba(4, 4, 4, 0.15);
+
+
+ASSIGNED TO
+/*  grey line  */
+width: 355px;
+height: 1px;
+background-color: #edebeb;
+
+/* Assigned To label */
+color: #999797;
+font-family: Lato;
+font-size: 11px;
+font-weight: 700;
+line-height: 19px;
+text-transform: uppercase;
+letter-spacing: 0.03em;
+
+/* Group title */
+color: #404040;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.03em;
+
+
+
+COLLAPSED SIDE PANEL
+/* PURPLE BG */
+width: 97px;
+background-color: #6861fc;
+
+
+/* Base text style */
+
+color: white;
+font-family: Lato;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0.03em;
+
+/* Topic number 17. */
+
+font-size: 20px;
+
+/* Subtopic number 6 */
+font-size: 16px;
+
+
+/* Text style for topic "Place Valu" */
+font-size: 20px;
+line-height: 7px;
+
+/* Text style for subtopic "Use place" */
+color: transparent;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+/* Show link */
+color: white;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+
+
+
+ASSIGNE TO GROUP POP-UP
+
+/* grey bg for save zone */
+height: 81px;
+opacity: 0.2;
+background-color: #ccc;
+
+
+/* SAVE label */
+color: #6861fc;
+font-family: Lato;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0.03em;
+
+/* Save button */
+width: 117px;
+height: 45px;
+background-color: white;
+border: 1px solid #6861fc;
+border-radius: 15px;
+
+/* Group title default */
+color: #404040;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+
+
+/* Group title selected */
+color: #a4cf2f;
+
+/* students list */
+width: 219px;
+color: #404040;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.03em;
+
+
+
+PREVIEW MODAL WINDOW
+/* dark bg */
+opacity: 0.85;
+background-color: black;
+
+/* dark circle under arrow */
+width: 102px;
+height: 102px;
+opacity: 0.27;
+background-color: black;
+
+
+/* Assign. title */
+color: #04cae8;
+font-family: Lato;
+font-size: 25px;
+font-weight: 500;
+line-height: 78px;
+letter-spacing: 0.03em;
+
+
+/* image bg */
+width: 820px;
+height: 550px;
+background-color: white;
+border: 4px solid #6bdefb;
+border-radius: 15px;
+box-shadow: 0.5px 0.9px 3px rgba(4, 4, 4, 0.15);
+
+
+
+
+
+
+
+
+
+

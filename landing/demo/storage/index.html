@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	## because all links here are relative to /pmdc
+	<base href="$nu.i( 'pmdc', '' )">
+
+    <meta charset="UTF-8">
+    <title>PlayMath Demo</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<style>
+		.kk_hidden {
+			display: none;
+		}
+
+		.kk_ptr {
+			cursor: pointer;
+		}
+
+	</style>
+
+	<script>
+
+		jQuery( document ).ready( function() {
+
+			jQuery( '.kk_btn_popup_puzzle' ).on('click', function ( ev ) {
+
+				jQuery('.border-radius-none-2').removeClass('width-700').addClass('width-custom');
+				jQuery('.modal-body').removeClass('modal-size').empty();
+
+				var jq_body = jQuery( '.kk_dlg_play_puzzle', '.kk_hidden_items' ).clone();
+
+						ev.preventDefault();
+						var jq = jQuery( ev.target );
+						var motif = jq.data( 'motif' );
+						var pz_id = jq.data( 'pzid' );
+
+						// console.log( 'launch: ' + motif + ' / ' + pz_id );
+
+						var url;
+
+						var mw = -1;
+						var mh = -1;
+						var iw = -1;
+						var ih = -1;
+
+						if ( motif == 'mbtree' )
+						{
+							url = "$nu.n( 'think', 'bareFrame', 'pid=' )" + pz_id;
+							mw = 850;
+							mh = 700;
+							iw = 810;
+							ih = 800;
+						}
+						else if ( motif == 'bbox' )
+						{
+							url = "$nu.n( 'bbox', 'bareFrame', 'puzzleID=' )" + pz_id;
+							mw = 880;
+							mh = 710;
+							iw = 820;
+							ih = 640;
+						}
+						else if ( motif == 'sums' )
+						{
+							url = "$nu.n( 'sums', 'regletteFrame', 'gameId=' )" + pz_id;
+							mw = 700;
+							mh = 500;
+
+							iw = 660;
+							ih = 420;
+						}
+						else if ( motif == 'msquares' )
+						{
+							url = "$nu.n( 'msquares', 'singleFrame', 'pid=' )" + pz_id;
+							mw = 880;
+							mh = 825;
+
+							iw = 840;
+							ih = 750;
+						}
+
+						if ( url )
+						{
+							jQuery( '.kk_puzzle_iframe', jq_body )
+								.attr( { 'src': url, 'width': iw, 'height': ih } );
+						}
+						else
+						{
+							alert( "Cannot figure out motif: " + motif );
+						}
+
+				jQuery('.modal-body').append( jq_body );
+				jQuery( '.kk_dlg_tmpl' ).modal('show');
+			});
+		});
+	</script>
+</head>
+
+<body class="text-center">
+<div class="" style="">
+    <div class="row" style="position: relative;">
+        <img src="images/pmdemo.png" style="position: relative; width: 1400px; height: 4150px;" usemap="#pmdemo">
+
+        <img src="images/free_trial_button.png" 
+             class="kk_trial_fixed    modal-link    kk_btn_popup_trial    link-block    underline-text    kk_ptr"
+             style="position: fixed; top: 3px; right: 1%;">
+    </div>
+    <map name="pmdemo">
+        <div class="modal-link    kk_btn_popup_trial    link-block    underline-text">
+            <area shape="rect" coords="213,255,500,340" class="kk_ptr" >
+        </div>
+
+        <div class="modal-link    kk_btn_popup_puzzle    link-block    underline-text">
+            <area shape="rect" coords="125,680,640,1322"  class="kk_ptr" data-motif="mbtree" data-pzid="172" >
+            <area shape="rect" coords="715,681,995,1327"  class="kk_ptr" data-motif="mbtree" data-pzid="133">
+            <area shape="rect" coords="995,681,1234,1327"  class="kk_ptr" data-motif="mbtree" data-pzid="139">
+
+            <area shape="rect" coords="128,1468,634,2105"  class="kk_ptr" data-motif="msquares" data-pzid="35">
+            <area shape="rect" coords="729,1470,1236,1800"  class="kk_ptr" data-motif="msquares" data-pzid="84">
+            <area shape="rect" coords="729,1800,1236,2105"  class="kk_ptr" data-motif="msquares" data-pzid="315">
+
+            <area shape="rect" coords="129,2245,635,2575"  class="kk_ptr" data-motif="sums" data-pzid="7">
+            <area shape="rect" coords="129,2575,635,2884"  class="kk_ptr" data-motif="sums" data-pzid="34">
+
+            <area shape="rect" coords="726,2241,1234,2575"  class="kk_ptr" data-motif="sums" data-pzid="16">
+            <area shape="rect" coords="726,2575,1234,2884"  class="kk_ptr" data-motif="sums" data-pzid="72">
+
+            <area shape="rect" coords="131,3006,631,3638"  class="kk_ptr" data-motif="bbox" data-pzid="732">
+            <area shape="rect" coords="733,3002,1232,3635"  class="kk_ptr" data-motif="bbox" data-pzid="18">
+        </div>
+    </map>
+
+</div>
+
+<div class="kk_hidden    kk_hidden_items">
+
+	##
+	## kk_dlg_free_trial -- body
+	##
+
+	<div class="kk_dlg_free_trial    row    padding-header-100">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8">
+			<div class="row">
+				<h1 class="custom-h1    text-center">PlayMath will be available for schools and classrooms in January 2017!</h1>
+			</div>
+			<div class="row">
+				<h4 class="text-center    address-email">Enter your email address below to get FREE TRIAL.</h4>
+			</div>
+			<div class="row    padding-header-50">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+					<input class="input-popup    kk_mkt_email" placeholder="ENTER YOUR EMAIL">
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+			<div class="row padding-header-20    padding-bottom-100">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+					<button class="kk_dlg_btn    kk_btn_email_submit">Request FREE TRIAL</button>
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+
+	##
+	## kk_dlg_thanks -- body
+	##
+
+	<div class="kk_dlg_thanks    row padding-header-100">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8">
+			<div class="row">
+				<h1 class="custom-h1    text-center">PlayMath will be available for schools and classrooms in January 2017!</h1>
+			</div>
+			<div class="row    kk_email_howto_txt">
+				<h4 class="text-center    address-email">Enter your email address below to get FREE TRIAL.</h4>
+			</div>
+			<div class="row padding-header-50">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+					<h4>Thank-you!  We'll email you when we're ready!</h4>
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+			<div class="row    padding-header-20    padding-bottom-100">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+					<button class="kk_dlg_btn" data-dismiss="modal" type="button" aria-label="Close">CLOSE</button>
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+
+	##
+	##	kk_dlg_play_puzzle -- body
+	##
+ 
+	 <div class="kk_dlg_play_puzzle    text-center">
+		<iframe src="#" class="kk_puzzle_iframe"></iframe>
+	</div>
+
+</div> ## kk_hidden_items
+
+##
+## kk_dlg_tmpl -- template for both types of modal boxes: sign up for trial AND play a puzzle game
+##
+
+<div class="kk_hidden   kk_dlg_tmpl   modal   fade   bs-sample-modal-sm" tabindex="-1" role="dialog" aria-labelledby="">
+	<div class="modal-dialog    modal-lg">
+		<div class="modal-content    border-radius-none-2    width-700">
+			<div>
+				<button class="kk_dlg_btn_close    close    btn-close-modal-1" data-dismiss="modal" type="button" aria-label="Close"><img src="images/cross.png"></button>
+			</div>
+			<div class="modal-body">
+				##
+				## -- meat of the dialog box gets injected here
+				##
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

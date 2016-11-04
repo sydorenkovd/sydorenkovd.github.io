@@ -1,0 +1,110 @@
+
+.custom-h1 {
+    font-family: Lato, sans-serif;
+    font-size: 40px;
+    width: 478px;
+    height: 126px;
+    color: #675bff;
+    font-weight: 300;
+    line-height: 44px;
+}
+
+.input-popup {
+    border-width: 1px;
+    border-color: rgb(215, 215, 215);
+    border-style: solid;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #868585;
+    letter-spacing: .03em;
+}
+
+.padding-header-100 {
+    padding-top: 100px
+}
+
+.padding-bottom-100 {
+    padding-bottom: 100px
+}
+.padding-header-50 {
+    padding-top: 50px;
+}
+.popup-button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background: #6861FC;
+    font-family: Lato, sans-serif;
+    letter-spacing: .03em;
+    /*width: 173px;*/
+    /*height: 17px;*/
+    color: white;
+    font-size: 18px;
+    font-weight: 400 !important;
+    /*line-height: 102px;*/
+}
+
+.padding-header-60 {
+    padding-top: 60px;
+}
+
+.address-email {
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    width: 465px;
+    height: 19px;
+    color: black;
+    font-weight: 300;
+    line-height: 44px;
+
+}
+.marga-bottom a span {
+    color: black !important;
+}
+.border-radius-none-2 {
+    width: 700px;
+    border-width: 3px;
+    border-color: rgb(143, 196, 16);
+    border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.width-custom {
+    width: 875px !important;
+}
+.width-700 {
+    width:700px !important;
+}
+.btn-close-modal-1 {
+    color: white !important;
+    position: absolute;
+    right: 0;
+    z-index: 555555;
+    opacity: 1;
+    margin-right: 20px;
+    margin-top: 10px !important;
+    text-shadow: none;
+    -moz-text-shadow: none;
+    -ms-text-shadow: none;
+    -webkit-text-shadow: none;
+    font-size: 26px;
+}
+.padding-header-100 {
+    padding-top: 100px
+}
+
+.padding-bottom-100 {
+    padding-bottom: 100px
+}
+.padding-header-40 {
+    padding-top: 40px;
+}
+.padding-header-20 {
+    padding-top: 20px;
+}
